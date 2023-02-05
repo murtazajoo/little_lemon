@@ -1,20 +1,13 @@
 import "./App.css";
+import Navbar from "./components/Navbar";
+import Routing from "./components/Routing";
 import Footer from "./components/Footer";
-import Header from "./components/Header";
-import About from "./components/About";
-import Nav from "./components/Nav";
-import Specials from "./components/Specials";
-import Testimonials from "./components/Testimonials";
-
 function App() {
+  // made bu murtaza joo
   return (
     <>
-      <Nav />
-      <Header />
-      <Specials />
-      <Testimonials />
-      <About />
-
+      <Navbar />
+      <Routing />
       <Footer />
     </>
   );
